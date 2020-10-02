@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SP Cart | E-commerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/logo3.jpeg" type="image/png">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"> <img src="images/logo3.jpeg" alt="" width="125px"> </a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li> <a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="signin.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" alt="" height="30px" width="30px"> </a>
+            <img src="images/menu.png" class="menu-icon" alt="" onclick="menutoggle()">
+        </div>
+
+    </div>
+
+
+    <!--single  product  detail-->
+    <div class="smalll-container single-product" id="myrow">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/gallery-1.jpg" width="100%" alt="" id="productImg">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-2.jpg" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-3.jpg" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-4.jpg" alt="" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p> Home/T-Shirt</p>
+                <h1>Red Printed T-Shirt</h1>
+                <h4>550 Rs.</h4>
+                <select name="" id="">
+                    <option value=""> Select Size</option>
+                    <option value=""> Small</option>
+                    <option value=""> Meadium</option>
+                    <option value=""> Large</option>
+                    <option value=""> XL</option>
+                    <option value=""> XXL</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add To Cart</a>
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p> Red printed T-shirt, has a round neck, and sleeveless. 100% Original Products</p>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- ---------title--------- -->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2 class="title">Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+
+    <!--Products-->
+
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>550 rs.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>550 rs.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>550 rs.</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>550 rs.</p>
+            </div>
+
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download our App for Android and ios Mobile phones.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo3.jpeg" alt="">
+                    <p>Our purpose to make benfits for user </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupns</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us </h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/bullet.raja.1998/" target="_blank">Facebook</a> </li>
+                        <li><a href="https://www.instagram.com/prajapati_rangbaz/?r=nametag"
+                                target="_blank">Instagram</a> </li>
+                        <li><a href="https://twitter.com/SachinP40" target="_blank"
+                                rel="noopener noreferrer">Twitter</a> </li>
+                        <li><a href="https://www.youtube.com/channel/UCVw4dR-OKfFsUxrwk8KWmeA" target="_blank"
+                                rel="noopener noreferrer">YouTube</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright-2020-Sachin Prajapati</p>
+        </div>
+    </div>
+</body>
+<!--Java Script-->
+<script src="script.js"></script>
+
+</html>
